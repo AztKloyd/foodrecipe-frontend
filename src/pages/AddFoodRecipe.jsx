@@ -20,7 +20,7 @@ export default function AddFoodRecipe() {
         formData.append("file", recipeData.file); // 🔥 multer에서 name="file"과 일치
       
         try {
-          await axios.post("http://localhost:5000/recipe", formData, {
+          await axios.post("${import.meta.env.VITE_API}/recipe", formData, {
             headers: {
               'Content-Type': 'multipart/form-data',
               'authorization': 'bearer ' + localStorage.getItem("token")

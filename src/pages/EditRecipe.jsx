@@ -9,7 +9,7 @@ export default function EditRecipe() {
 
     useEffect(()=>{
         const getData=async()=>{
-            await axios.get(`http://localhost:5000/recipe/${id}`)
+            await axios.get(`${import.meta.env.VITE_API}/recipe/${id}`)
             .then(response=>{
                 let res=response.data
                 setRecipeData({
@@ -41,7 +41,7 @@ export default function EditRecipe() {
         }
       
         try {
-          await axios.put(`http://localhost:5000/recipe/${id}`, formData, {
+          await axios.put(`${import.meta.env.VITE_API}/recipe/${id}`, formData, {
             headers: {
               'Content-Type': 'multipart/form-data',
               'authorization': 'bearer ' + localStorage.getItem("token")
