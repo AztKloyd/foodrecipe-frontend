@@ -23,7 +23,7 @@ export default function AddFoodRecipe() {
           await axios.post(`${import.meta.env.VITE_API}/recipe`, formData, {
             headers: {
               'Content-Type': 'multipart/form-data',
-              'authorization': 'bearer ' + localStorage.getItem("token")
+              'Authorization': 'bearer ' + localStorage.getItem("token")
             }
           });
           navigate("/");
