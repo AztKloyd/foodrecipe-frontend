@@ -334,4 +334,28 @@ section{
   header ul li p {
     font-size: 16px;
   }
+  .form {
+    width: 90%;
+    margin: 2rem auto;
+    padding: 1rem;
+  }
+
+  .form-control {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.5rem;
+  }
+
+  .form-control .input,
+  .form-control .input-textarea {
+    flex-basis: 100%;
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .form button {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 15px;
+  }
 }
