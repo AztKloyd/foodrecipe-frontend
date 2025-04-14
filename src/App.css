@@ -328,6 +328,7 @@ section{
     align-items: center;
     position: static;
     margin-bottom: 1rem;
+    box-shadow: none;
   }
 
   header ul {
