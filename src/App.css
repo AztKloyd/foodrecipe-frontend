@@ -313,4 +313,25 @@ section{
   .card-body {
     padding: 1rem;
   }
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  header ul {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin-top: 1rem;
+    gap: 0.5rem;
+  }
+
+  header h2 {
+    font-size: 20px;
+  }
+
+  header ul li a,
+  header ul li p {
+    font-size: 16px;
+  }
 }
