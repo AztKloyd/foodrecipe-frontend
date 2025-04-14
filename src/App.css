@@ -335,7 +335,7 @@ section{
     align-items: center;
     width: 100%;
     margin-top: 0;
-    gap: 0.3rem;
+    gap: 0;
     padding-left: 0;
   }
 
@@ -356,9 +356,6 @@ section{
     padding: 0.5rem 0;
   }
 
-  header ul li:last-child {
-    border-bottom: none;
-  }
 
   header ul li a {
     font-size: 13px;
@@ -369,6 +366,10 @@ section{
 
   header ul li p {
     font-size: 16px;
+  }
+
+  header ul li:last-child {
+    border-bottom: 1px solid #eee;
   }
 
   .form {
@@ -433,6 +434,15 @@ section{
     color: #307bbd;
     text-align: center;
     cursor: pointer;
+  }
+
+  .login {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #eee;
+    font-size: 14px;
   }
 }
 
