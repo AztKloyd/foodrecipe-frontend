@@ -344,12 +344,27 @@ section{
     font-size: 20px;
     margin-bottom: 0.75rem;
     order: -1;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+  }
+
+  header ul li {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+    padding: 0.5rem 0;
+  }
+
+  header ul li:last-child {
+    border-bottom: none;
   }
 
   header ul li a {
     font-size: 13px;
     padding: 3px 8px;
     text-align: center;
+    background-color: transparent;
   }
 
   header ul li p {
