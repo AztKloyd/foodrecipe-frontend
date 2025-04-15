@@ -449,9 +449,9 @@ main {
     border-bottom: 1px solid #eee;
     font-size: 14px;
   }
-  main {
+  .home {
     margin-top: 2rem;
-    padding-top: 480px;
+    padding-top: 340px;
   }
 }
 
