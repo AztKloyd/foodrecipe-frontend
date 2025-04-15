@@ -18,6 +18,8 @@ header {
   top:0;
   z-index: 10;
   background-color: #ffffff;
+  flex-wrap: wrap;
+  padding: 0.5rem 1rem;
 }
 
 header ul{
@@ -54,8 +56,11 @@ li .login{
   font-weight: 500;
 }
 
-header h2{
-  margin-left: 1rem;
+header h2 {
+  text-align: center;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem 0;
+  width: 100%;
 }
 
 section{
@@ -327,7 +332,7 @@ section{
     flex-direction: column;
     align-items: center;
     position: static;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     box-shadow: none;
   }
 
@@ -343,9 +348,9 @@ section{
 
   header h2 {
     font-size: 20px;
-    margin-bottom: 0.75rem;
+    margin-bottom: 0;
     order: -1;
-    padding-bottom: 0.5rem;
+    padding: 1rem 0;
     border-bottom: 1px solid #ddd;
     width: 100%;
   }
@@ -354,7 +359,7 @@ section{
     width: 100%;
     text-align: center;
     border-bottom: 1px solid #eee;
-    padding: 0.5rem 0;
+    padding: 0.8rem 0;
   }
 
 
@@ -441,9 +446,12 @@ section{
     display: block;
     width: 100%;
     text-align: center;
-    padding: 0.5rem 0;
+    padding: 0.8rem 0;
     border-bottom: 1px solid #eee;
     font-size: 14px;
+  }
+  main {
+    margin-top: 2rem;
   }
 }
 
